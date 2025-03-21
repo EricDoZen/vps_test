@@ -13,5 +13,6 @@ EXPOSE 4200
 
 # Start shellinabox
 # CMD ["/usr/bin/shellinaboxd", "-t", "-s", "/:LOGIN"]
-CMD ["shellinaboxd", "-t", "-s", "/:root:root:/bin/bash"]
+CMD ["shellinaboxd", "-t", "--no-beep", "-s", "/:root:root:/bin/bash"]
+
 
